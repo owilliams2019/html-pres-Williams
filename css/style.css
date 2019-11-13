@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    filter: grayscale(100%);
+}
+body, html, section {
+    width: 100%;
+    height: 100%;
+}
+    .mySlides {display:none;}
+/* use font family */
+h1, h2, h3, h4, h5, h6, p, {font-family: 'Aldrich', sans-serif; font-size: 5vw;}
+/* background */
+.fullscreen-img {
+  /* The image used */
+  background-image: url("/img/Background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+overflow: hidden;
+}
+/* audio */
+figure {
+    margin: 0;
+}
